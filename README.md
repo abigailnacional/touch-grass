@@ -1,27 +1,23 @@
-# touch-grass
-GitHub repository for the Touch Grass project for MLH's "A Hack A Day" hackathon.
+# flask-boilerplate
+GitHub repository with boilerplate code for a simple Flask web app. Written by Abigail Nacional and and based off of [Flaskr](https://flask.palletsprojects.com/en/2.0.x/tutorial/).
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/abigailnacional/touch-grass.git
+   git clone https://github.com/abigailnacional/flask-boilerplate.git
    ```
 2. Navigate to the folder
    ```sh
-   cd touch-grass
+   cd flask-boilerplate
    ```
 3. Run install.sh by dragging the file into your terminal.
 
-4. Set the environment variable for your Google Cloud Credentials as the path to the json file with said credentials. You must use your own path to the required json.
-   ```sh
-   export GOOGLE_APPLICATION_CREDENTIALS=C:\Users\yourUser\credentials-file.json
-   ```
-
-5. Run the following commands in your terminal.
+4. Run the following commands in your terminal.
    ```sh
    export FLASK_ENV=‘development’
+   . env/bin/activate
    flask run
    ```
 
-6. Type "localhost:5000" into your browser's URL bar and press enter.
+5. Type "localhost:5000" into your browser's URL bar and press enter.
